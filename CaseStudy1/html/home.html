@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/home.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="h-100 h-custom" style="background-color: #4682B4;">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-8 col-xl-6">
+                  <div class="card rounded-3">
+                    <img src="../images/demo.jpg" class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;" alt="Sample photo">
+                    <div class="card-body p-4 p-md-5">
+                      <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Send Email</h3>
+          
+                      <form class="px-md-2">
+          
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example1q">To</label>
+                            <input placeholder="Recipient email" type="text" id="form3Example1q" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" class="form-control" />
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example1q">Cc</label>
+                            <input placeholder="Cc email" type="text" id="form3Example1q" class="form-control" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" />
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example1q">Bcc</label>
+                            <input placeholder="Bcc email" type="text" id="form3Example1q" class="form-control" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" />
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example1q">Email</label>
+                            <textarea id="form3Example1q" cols="10" rows="10" class="form-control" placeholder="Type email here" required ></textarea>
+                        </div>
+
+                        <div class="custom-file">
+                            <input type="file"  id="customFileLang"  />
+                        </div>
+
+                        <div class="row">
+                            <div id="btn1" class="col">
+                                <button id="btn" type="submit" class="btn btn-primary btn-lg mb-1"> <i class="bi bi-share"></i> Send</button>
+                            </div>
+                            <div id="btn2" class="col">
+                                <button id="btn" type="submit" class="btn btn-danger btn-lg mb-1"><i class="bi bi-x"></i>Cancel</button>
+                            </div>
+                        </div>
+                      </form>
+          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </body>
+</html>
